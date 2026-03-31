@@ -1,0 +1,26 @@
+{
+  "$command": {
+    "name": "volume",
+    "description": "Set the playback volume",
+    "options": [
+      {
+        "name": "level",
+        "description": "Volume level (0-100)"
+      }
+    ]
+  },
+  "volume": {
+    "title": "--- Volume ---",
+    "set": "Volume set to **{{volume}}%**"
+  },
+  "errors": {
+    "guild_only": "This command can only be used in a server.",
+    "no_member": "Could not resolve guild member.",
+    "no_voice": "You must be in a voice channel.",
+    "nothing_playing": "Nothing is currently playing."
+  },
+  "common": {
+    "footer": "Quran Bot | mp3quran.net",
+    "error_title": "--- Error ---"
+  }
+}

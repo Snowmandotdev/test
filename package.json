@@ -1,0 +1,40 @@
+{
+  "name": "quran-bot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A professional Quran recitation Discord bot with Components V2, i18n, 24/7 playback, autocomplete, and full playback controls.",
+  "type": "module",
+  "scripts": {
+    "dev": "commandkit dev",
+    "build": "commandkit build",
+    "start": "commandkit start",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "discord",
+    "quran",
+    "bot",
+    "audio",
+    "recitation",
+    "commandkit",
+    "components-v2",
+    "i18n"
+  ],
+  "author": "motaz-darawsha",
+  "license": "MIT",
+  "dependencies": {
+    "@commandkit/i18n": "^1.2.1",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.19.2",
+    "commandkit": "^1.2.1",
+    "discord-radio": "github:motaz-darawsha/discord-radio#main",
+    "discord.js": "^14.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

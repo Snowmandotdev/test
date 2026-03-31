@@ -1,0 +1,31 @@
+{
+  "$command": {
+    "name": "nowplaying",
+    "description": "عرض ما يتم تشغيله حالياً"
+  },
+  "nowplaying": {
+    "title": "--- يتم التشغيل الآن ---",
+    "reciter": "القارئ",
+    "surah": "السورة",
+    "verses": "آيات",
+    "volume": "الصوت",
+    "status": "الحالة",
+    "duration": "المدة",
+    "loop": "التكرار",
+    "loop_on": "مفعّل",
+    "loop_off": "معطّل",
+    "status_playing": "يعمل",
+    "status_paused": "متوقف مؤقتاً",
+    "status_idle": "خامل",
+    "status_connecting": "جاري الاتصال",
+    "status_destroyed": "مدمر"
+  },
+  "errors": {
+    "guild_only": "هذا الأمر يعمل فقط في السيرفر.",
+    "nothing_playing": "لا يوجد شيء يعمل حالياً."
+  },
+  "common": {
+    "footer": "بوت القرآن | mp3quran.net",
+    "error_title": "--- خطأ ---"
+  }
+}

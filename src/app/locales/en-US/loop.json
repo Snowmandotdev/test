@@ -1,0 +1,21 @@
+{
+  "$command": {
+    "name": "loop",
+    "description": "Toggle loop mode for the current surah"
+  },
+  "loop": {
+    "title": "--- Loop ---",
+    "enabled": "Loop mode enabled for the current surah.",
+    "disabled": "Loop mode disabled."
+  },
+  "errors": {
+    "guild_only": "This command can only be used in a server.",
+    "no_member": "Could not resolve guild member.",
+    "no_voice": "You must be in a voice channel.",
+    "nothing_playing": "Nothing is currently playing."
+  },
+  "common": {
+    "footer": "Quran Bot | mp3quran.net",
+    "error_title": "--- Error ---"
+  }
+}

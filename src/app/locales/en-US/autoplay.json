@@ -1,0 +1,23 @@
+{
+  "$command": {
+    "name": "autoplay",
+    "description": "Toggle 24/7 autoplay mode"
+  },
+  "autoplay": {
+    "title": "--- Autoplay ---",
+    "enabled": "24/7 autoplay enabled. The next surah will play automatically when the current one finishes.",
+    "disabled": "Autoplay has been disabled.",
+    "next_surah": "Next Surah",
+    "reciter": "Reciter"
+  },
+  "errors": {
+    "guild_only": "This command can only be used in a server.",
+    "no_member": "Could not resolve guild member.",
+    "no_voice": "You must be in a voice channel.",
+    "nothing_playing": "Something must be playing to enable autoplay."
+  },
+  "common": {
+    "footer": "Quran Bot | mp3quran.net",
+    "error_title": "--- Error ---"
+  }
+}
