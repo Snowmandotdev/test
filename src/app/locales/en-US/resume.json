@@ -1,0 +1,20 @@
+{
+  "$command": {
+    "name": "resume",
+    "description": "Resume paused playback"
+  },
+  "resumed": {
+    "title": "--- Resumed ---",
+    "description": "Playback has been resumed."
+  },
+  "errors": {
+    "guild_only": "This command can only be used in a server.",
+    "no_member": "Could not resolve guild member.",
+    "no_voice": "You must be in a voice channel.",
+    "nothing_paused": "Nothing is currently paused."
+  },
+  "common": {
+    "footer": "Quran Bot | mp3quran.net",
+    "error_title": "--- Error ---"
+  }
+}

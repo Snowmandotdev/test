@@ -1,0 +1,26 @@
+{
+  "$command": {
+    "name": "volume",
+    "description": "ضبط مستوى الصوت",
+    "options": [
+      {
+        "name": "level",
+        "description": "مستوى الصوت (0-100)"
+      }
+    ]
+  },
+  "volume": {
+    "title": "--- الصوت ---",
+    "set": "تم ضبط الصوت على **{{volume}}%**"
+  },
+  "errors": {
+    "guild_only": "هذا الأمر يعمل فقط في السيرفر.",
+    "no_member": "تعذر التعرف على العضو.",
+    "no_voice": "يجب أن تكون في قناة صوتية.",
+    "nothing_playing": "لا يوجد شيء يعمل حالياً."
+  },
+  "common": {
+    "footer": "بوت القرآن | mp3quran.net",
+    "error_title": "--- خطأ ---"
+  }
+}

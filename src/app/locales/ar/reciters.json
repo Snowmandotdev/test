@@ -1,0 +1,21 @@
+{
+  "$command": {
+    "name": "reciters",
+    "description": "عرض قائمة القراء المتاحين",
+    "options": [
+      {
+        "name": "page",
+        "description": "رقم الصفحة"
+      }
+    ]
+  },
+  "reciters": {
+    "title": "--- القراء المتاحون ---",
+    "empty": "لم يتم العثور على قراء.",
+    "page": "صفحة {{page}}/{{totalPages}}"
+  },
+  "common": {
+    "footer": "بوت القرآن | mp3quran.net",
+    "error_title": "--- خطأ ---"
+  }
+}

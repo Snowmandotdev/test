@@ -1,0 +1,20 @@
+{
+  "$command": {
+    "name": "resume",
+    "description": "استئناف التشغيل"
+  },
+  "resumed": {
+    "title": "--- تم الاستئناف ---",
+    "description": "تم استئناف التشغيل."
+  },
+  "errors": {
+    "guild_only": "هذا الأمر يعمل فقط في السيرفر.",
+    "no_member": "تعذر التعرف على العضو.",
+    "no_voice": "يجب أن تكون في قناة صوتية.",
+    "nothing_paused": "لا يوجد شيء متوقف مؤقتاً."
+  },
+  "common": {
+    "footer": "بوت القرآن | mp3quran.net",
+    "error_title": "--- خطأ ---"
+  }
+}

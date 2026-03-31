@@ -1,0 +1,20 @@
+{
+  "$command": {
+    "name": "pause",
+    "description": "إيقاف مؤقت للتشغيل"
+  },
+  "paused": {
+    "title": "--- إيقاف مؤقت ---",
+    "description": "تم إيقاف التشغيل مؤقتاً. استخدم `/resume` للاستئناف."
+  },
+  "errors": {
+    "guild_only": "هذا الأمر يعمل فقط في السيرفر.",
+    "no_member": "تعذر التعرف على العضو.",
+    "no_voice": "يجب أن تكون في قناة صوتية.",
+    "nothing_playing": "لا يوجد شيء للإيقاف المؤقت."
+  },
+  "common": {
+    "footer": "بوت القرآن | mp3quran.net",
+    "error_title": "--- خطأ ---"
+  }
+}

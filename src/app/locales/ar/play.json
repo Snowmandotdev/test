@@ -1,0 +1,42 @@
+{
+  "$command": {
+    "name": "play",
+    "description": "تشغيل سورة من القرآن الكريم في قناتك الصوتية",
+    "options": [
+      {
+        "name": "surah",
+        "description": "اسم السورة أو رقمها"
+      },
+      {
+        "name": "reciter",
+        "description": "اختر القارئ"
+      },
+      {
+        "name": "volume",
+        "description": "مستوى الصوت 0-100"
+      }
+    ]
+  },
+  "playing": {
+    "title": "--- يتم التشغيل الآن ---",
+    "reciter": "القارئ",
+    "surah": "السورة",
+    "verses": "آيات",
+    "volume": "الصوت",
+    "type": "النوع",
+    "meccan": "مكية",
+    "medinan": "مدنية"
+  },
+  "errors": {
+    "guild_only": "هذا الأمر يعمل فقط في السيرفر.",
+    "no_member": "تعذر التعرف على العضو.",
+    "no_voice": "يجب أن تكون في قناة صوتية لاستخدام هذا الأمر.",
+    "surah_not_found": "السورة غير موجودة: **{{input}}**\nاستخدم الإكمال التلقائي لاختيار سورة صحيحة.",
+    "reciter_no_surah": "القارئ **{{reciter}}** لا يملك سورة **{{surah}}** متاحة.",
+    "play_failed": "فشل التشغيل: {{error}}"
+  },
+  "common": {
+    "footer": "بوت القرآن | mp3quran.net",
+    "error_title": "--- خطأ ---"
+  }
+}

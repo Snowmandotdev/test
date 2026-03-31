@@ -1,0 +1,21 @@
+{
+  "$command": {
+    "name": "reciters",
+    "description": "List available reciters",
+    "options": [
+      {
+        "name": "page",
+        "description": "Page number"
+      }
+    ]
+  },
+  "reciters": {
+    "title": "--- Available Reciters ---",
+    "empty": "No reciters found.",
+    "page": "Page {{page}}/{{totalPages}}"
+  },
+  "common": {
+    "footer": "Quran Bot | mp3quran.net",
+    "error_title": "--- Error ---"
+  }
+}

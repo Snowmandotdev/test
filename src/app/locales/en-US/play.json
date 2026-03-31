@@ -1,0 +1,42 @@
+{
+  "$command": {
+    "name": "play",
+    "description": "Play a Quran surah in your voice channel",
+    "options": [
+      {
+        "name": "surah",
+        "description": "Surah name or number"
+      },
+      {
+        "name": "reciter",
+        "description": "Choose a reciter"
+      },
+      {
+        "name": "volume",
+        "description": "Volume level 0-100"
+      }
+    ]
+  },
+  "playing": {
+    "title": "--- Now Playing ---",
+    "reciter": "Reciter",
+    "surah": "Surah",
+    "verses": "verses",
+    "volume": "Volume",
+    "type": "Type",
+    "meccan": "Meccan",
+    "medinan": "Medinan"
+  },
+  "errors": {
+    "guild_only": "This command can only be used in a server.",
+    "no_member": "Could not resolve guild member.",
+    "no_voice": "You must be in a voice channel to use this command.",
+    "surah_not_found": "Surah not found: **{{input}}**\nUse autocomplete to select a valid surah.",
+    "reciter_no_surah": "The reciter **{{reciter}}** does not have surah **{{surah}}** available.",
+    "play_failed": "Failed to play: {{error}}"
+  },
+  "common": {
+    "footer": "Quran Bot | mp3quran.net",
+    "error_title": "--- Error ---"
+  }
+}
