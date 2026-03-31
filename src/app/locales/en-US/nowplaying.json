@@ -1,0 +1,31 @@
+{
+  "$command": {
+    "name": "nowplaying",
+    "description": "Show what is currently playing"
+  },
+  "nowplaying": {
+    "title": "--- Now Playing ---",
+    "reciter": "Reciter",
+    "surah": "Surah",
+    "verses": "verses",
+    "volume": "Volume",
+    "status": "Status",
+    "duration": "Duration",
+    "loop": "Loop",
+    "loop_on": "ON",
+    "loop_off": "OFF",
+    "status_playing": "Playing",
+    "status_paused": "Paused",
+    "status_idle": "Idle",
+    "status_connecting": "Connecting",
+    "status_destroyed": "Destroyed"
+  },
+  "errors": {
+    "guild_only": "This command can only be used in a server.",
+    "nothing_playing": "Nothing is currently playing."
+  },
+  "common": {
+    "footer": "Quran Bot | mp3quran.net",
+    "error_title": "--- Error ---"
+  }
+}
