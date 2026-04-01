@@ -28,7 +28,9 @@
     "@discordjs/voice": "^0.19.2",
     "commandkit": "^1.2.1",
     "discord-radio": "github:motaz-darawsha/discord-radio#main",
-    "discord.js": "^14.25.1"
+    "discord.js": "^14.25.1",
+    "puppeteer": "^24.40.0",
+    "tsx": "^4.21.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
